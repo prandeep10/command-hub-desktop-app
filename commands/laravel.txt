@@ -1,0 +1,21 @@
+# Laravel Commands
+
+## Run Database Migrations & Seeds
+# Description: Re-run migrations and execute database seeders
+php artisan migrate:fresh --seed
+
+## Clear All Laravel Caches
+# Description: Flush application, config, route, and view caches
+php artisan cache:clear && php artisan config:clear && php artisan route:clear
+
+## Start Development Server
+# Description: Launch local PHP artisan development server on port 8000
+php artisan serve --port=8000
+
+## Create New Controller
+# Description: Generate a resource controller class
+php artisan make:controller UserController --resource
+
+## Queue Worker Process
+# Description: Start processing queued background jobs
+php artisan queue:work --tries=3 --timeout=90

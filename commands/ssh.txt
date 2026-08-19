@@ -1,0 +1,17 @@
+# SSH Commands
+
+## Connect to Remote Server via Key
+# Description: SSH login using private identity key file
+ssh -i ~/.ssh/id_rsa user@remote-ip-address
+
+## Forward Remote Port to Localhost
+# Description: Tunnel remote port 8080 to local port 8080
+ssh -L 8080:localhost:8080 user@remote-ip-address
+
+## Copy File to Remote Server (SCP)
+# Description: Securely transfer local file to remote server path
+scp ./file.tar.gz user@remote-ip-address:/tmp/
+
+## Generate New Ed25519 SSH Key
+# Description: Create high-security modern SSH key pair
+ssh-keygen -t ed25519 -C "admin@example.com"

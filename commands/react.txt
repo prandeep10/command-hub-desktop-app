@@ -1,0 +1,21 @@
+# React & Vite Commands
+
+## Initialize Vite React App
+# Description: Create a modern React TypeScript application using Vite
+npm create vite@latest my-app -- --template react-ts
+
+## Start Development Server
+# Description: Run Vite dev server with hot module replacement
+npm run dev
+
+## Build Production Bundle
+# Description: Compile and bundle assets for production deployment
+npm run build
+
+## Run ESLint Check
+# Description: Scan source code for lint errors and formatting issues
+npm run lint
+
+## Preview Production Build Locally
+# Description: Serve production build build folder locally
+npm run preview

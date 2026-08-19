@@ -1,0 +1,21 @@
+# Node & NPM Commands
+
+## Install Dependencies
+# Description: Install packages listed in package.json
+npm install
+
+## Install Package as Dev Dependency
+# Description: Save package to devDependencies section
+npm install -D typescript @types/node
+
+## Outdated Packages Check
+# Description: List installed packages that have newer versions available
+npm outdated
+
+## Run Script from Package.json
+# Description: Execute custom script defined in package.json
+npm run start
+
+## Remove Node Modules & Lockfile
+# Description: Completely clean project dependencies for fresh reinstall
+rm -rf node_modules package-lock.json && npm install

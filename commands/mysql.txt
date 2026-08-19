@@ -1,0 +1,17 @@
+# MySQL Commands
+
+## Connect to MySQL Shell
+# Description: Interactive login to local MySQL database server
+mysql -u root -p
+
+## Dump Database to Backup File
+# Description: Export database schema and data to SQL file
+mysqldump -u root -p database_name > backup.sql
+
+## Restore Database from SQL File
+# Description: Import SQL backup into existing database
+mysql -u root -p database_name < backup.sql
+
+## Show Active Database Connections
+# Description: View running processlist and queries
+SHOW FULL PROCESSLIST;

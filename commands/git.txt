@@ -1,0 +1,29 @@
+# Git Commands
+
+## Check Working Tree Status
+# Description: Show modified, untracked, and staged files
+git status
+
+## Stage & Commit All Changes
+# Description: Add all modified/new files and create a commit
+git add . && git commit -m "Update codebase"
+
+## Push to Remote Main Branch
+# Description: Push current branch commits to origin/main
+git push origin main
+
+## Pull Latest Changes
+# Description: Fetch and merge changes from main remote branch
+git pull origin main --rebase
+
+## Create & Switch to New Branch
+# Description: Create a new feature branch and check it out
+git checkout -b feature/new-feature
+
+## Undo Last Local Commit (Keep Files)
+# Description: Soft reset to keep modified changes in staging area
+git reset --soft HEAD~1
+
+## View Graphical Log History
+# Description: Compact one-line graph view of recent commits
+git log --oneline --graph --decorate -n 10

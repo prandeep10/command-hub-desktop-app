@@ -1,0 +1,25 @@
+# Linux Commands
+
+## Restart Nginx Service
+# Description: Gracefully restart the Nginx web server service
+sudo systemctl restart nginx
+
+## View System Logs (Live)
+# Description: Follow systemd journal log output with error priority
+journalctl -xe -u nginx --no-pager
+
+## Check Disk Usage Summary
+# Description: Display free and used disk space in human readable format
+df -h
+
+## List Open Ports & Listening Services
+# Description: Show active TCP/UDP sockets and corresponding processes
+sudo ss -tulpn
+
+## Memory Usage Statistics
+# Description: Show free and used memory in megabytes
+free -m
+
+## Find Large Files (>100M)
+# Description: Search root directory for files larger than 100 megabytes
+sudo find / -type f -size +100M 2>/dev/null

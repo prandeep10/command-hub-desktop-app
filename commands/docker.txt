@@ -1,0 +1,25 @@
+# Docker Commands
+
+## List Active Containers
+# Description: Show all currently running docker containers
+docker ps
+
+## List All Containers (Including Stopped)
+# Description: View full container history and statuses
+docker ps -a
+
+## View Container Live Logs
+# Description: Stream logs from a running container
+docker logs -f --tail 100 <container_id>
+
+## Stop and Remove All Containers
+# Description: Force stop and prune stopped containers
+docker stop $(docker ps -aq) && docker rm $(docker ps -aq)
+
+## Docker Compose Up (Detached)
+# Description: Build and start multi-container services in background
+docker compose up -d --build
+
+## Inspect Container Resource Usage
+# Description: Live stream of container CPU, memory, and network usage
+docker stats

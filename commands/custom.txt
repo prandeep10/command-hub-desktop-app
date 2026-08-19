@@ -1,0 +1,9 @@
+# Custom Commands
+
+## Update System Packages (Debian/Ubuntu)
+# Description: Fetch package lists and upgrade all installed packages
+sudo apt update && sudo apt upgrade -y
+
+## Monitor CPU & RAM (htop)
+# Description: Interactive real-time process viewer and system monitor
+htop

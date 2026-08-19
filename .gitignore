@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Application logs & user settings
+*.log
+/tmp/
+commands/favorites.json
+
+# OS specific files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Command Hub
+Comment=Personal Command Launcher & Command Library
+Exec="/home/prandeep/Desktop/Mini Tools 2026 by Prandeep/command-hub/venv/bin/python" "/home/prandeep/Desktop/Mini Tools 2026 by Prandeep/command-hub/app.py"
+Icon=/home/prandeep/Desktop/Mini Tools 2026 by Prandeep/command-hub/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Utility;Development;
+Keywords=command;launcher;terminal;git;docker;linux;cli;
